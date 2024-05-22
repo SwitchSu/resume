@@ -4,7 +4,13 @@
   padding: 260px 10%;
   border-left: 1px dashed black;
 }
-.container .profile .pro-title{
+.open{
+  display: block;
+}
+.close{
+  display: none;
+}
+.container .page .title{
   color: #fff;
   background-color: brown;
   margin-bottom: 90px;
@@ -12,9 +18,76 @@
   line-height: 1;
   letter-spacing: -0.5px;
 }
+.container .profile .mine{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .container .profile .mine .txt{
   width: 58%;
 }
 .container .profile .mine .career{
   width: 300px;
+}
+.container .profile .mine .career dl{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .profile .mine .career dl dt{
+  width: 20%;
+}
+.container .profile .mine .career dl dd{
+  width: 70%;
+}
+.container .profile .pro-img{
+  margin-top: 60px;
+  padding-right: 28%;
+  position: relative;
+  left: -15.5%;
+}
+.container .profile .pro-img img{
+  width: 100%;
+}
+.container .recognition{
+  margin-top: 180px;
+}
+.container .recognition .list ul{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.container .recognition .list ul li{
+  width: 18%;
+  margin-bottom: 80px;
+}
+.container .con-nav{
+  font-size: 18px;
+}
+.container .con-nav ul{
+  display: flex;
+}
+.container .con-nav ul li{
+  margin-right: 5%;
+}
+.container .work-lists{
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .work-lists .w-list{
+  background-color: yellowgreen;
+  width: 28%;
+  margin: 0 5% 90px 0;
+}
+.container .work-lists .w-list img{
+  filter: grayscale(100%);
+}
+.container .work-lists .w-list .visit{
+  font-size: 12px;
+  margin-top: 8px;
+  letter-spacing: -0.5px;
+  padding: 0 0 5px 25px;
+  color: black;
+  line-height: 1px;
 }
