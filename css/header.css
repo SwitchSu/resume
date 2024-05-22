@@ -12,8 +12,14 @@ header{
   font-size: 32px;
   background-color: aliceblue;
 }
-.nav ul{
+.nav .about{
   width: 70%;
+  margin: 20px auto 0;
+}
+.nav .about ul{
   list-style: none;
   text-transform: uppercase;
+}
+.nav .about ul li{
+  padding-left: 5px;
 }

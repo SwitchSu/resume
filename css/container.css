@@ -4,3 +4,17 @@
   padding: 260px 10%;
   border-left: 1px dashed black;
 }
+.container .profile .pro-title{
+  color: #fff;
+  background-color: brown;
+  margin-bottom: 90px;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+.container .profile .mine .txt{
+  width: 58%;
+}
+.container .profile .mine .career{
+  width: 300px;
+}
