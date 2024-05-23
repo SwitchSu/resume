@@ -8,12 +8,17 @@ abouts.forEach((about) => {
       pageTitle.innerHTML = "My works";
       pages[0].classList.add('close');
       pages[1].classList.add('open');
+      pages[2].classList.remove('open');
     } else if (about.innerHTML == 'contact') {
       pageTitle.innerHTML = "Contact"
+      pages[2].classList.add('open');
+      pages[1].classList.remove('open');
+      pages[0].classList.add('close');
     } else {
       pageTitle.innerHTML = "Profile";
       pages[0].classList.remove('close');
       pages[1].classList.remove('open');
+      pages[2].classList.remove('open');
     }
   })
 })

@@ -4,9 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>我的履歷</title>
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/container.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/valery" rel="stylesheet">
 </head>
 <style>
   * {
@@ -22,6 +26,11 @@
 
   li {
     list-style: none;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .all {
@@ -35,6 +44,7 @@
     right: 2%;
     z-index: 2;
     font-size: 60px;
+    font-family: "Valery";
     line-height: 0.65;
     letter-spacing: -4px;
     writing-mode: vertical-rl;
@@ -52,6 +62,9 @@
             <li>works</li>
             <li>contact</li>
           </ul>
+        </div>
+        <div class="new">
+          <div class="test">TEST</div>
         </div>
       </div>
     </header>
@@ -85,13 +98,20 @@
           <h3 class="title">Recognitions</h3>
           <div class="list">
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam repudiandae recusandae fugit
+                unde.</li>
             </ul>
           </div>
         </section>
@@ -148,8 +168,32 @@
           </div>
         </section>
       </div>
+      <div class="page" hidden>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse fugiat distinctio reiciendis
+          aperiam, vel reprehenderit ab totam minima</p>
+        <div class="form">
+          <form action="">
+            <dl>
+              <dt>公司</dt>
+              <dd><input type="text"></dd>
+              <dt>姓名</dt>
+              <dd><input type="text"></dd>
+              <dt>地址</dt>
+              <dd><input type="text"></dd>
+              <dt>電話</dt>
+              <dd><input type="text"></dd>
+              <dt class="text">內文</dt>
+              <dd class="txt-area"><textarea name="content" id="" rows="10"></textarea></dd>
+            </dl>
+            <div class="send-btn">
+              <input type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </body>
 <script src="./js/all.js"></script>
+
 </html>
